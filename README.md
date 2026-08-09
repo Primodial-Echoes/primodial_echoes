@@ -1,3 +1,7 @@
+![Auto Assign](https://github.com/Primodial-Echoes/demo-repository/actions/workflows/auto-assign.yml/badge.svg)
+
+![Proof HTML](https://github.com/Primodial-Echoes/demo-repository/actions/workflows/proof-html.yml/badge.svg)
+
 # [INIT] Project Kickoff: Primordial Echoes 🌌👁️
 
 ## 概述 / Overview
@@ -32,7 +36,3 @@ Primordial Echoes develops immersive, narrative-driven horror games that explore
 ## 📌 Notes & Resources
 * **Target Engine:** Unreal Engine 5 / Unity (TBD based on prototype scope)
 * **Moodboard / References:** *Amnesia*, *Silent Hill*, *Signalis*, Lovecraftian lore.
-* **Security Note:** Keep all early narrative docs and asset concepts private within the org.
-
-> *"That is not dead which can eternal lie, and with strange aeons even death may die."*
-
