@@ -1,0 +1,89 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width,initial-scale=1">
+  <title>Primodial Echoes — Home</title>
+  <link rel="stylesheet" href="./css/style.css">
+  <meta name="description" content="Primodial Echoes — a project site with a bloxd-inspired theme.">
+  <link rel="icon" href="./assets/logo.svg" type="image/svg+xml">
+</head>
+<body>
+  <header class="site-header">
+    <div class="container header-inner">
+      <a class="brand" href="#">
+        <img src="./assets/logo.svg" alt="logo" class="logo">
+        <span>Primodial Echoes</span>
+      </a>
+      <nav class="nav">
+        <a href="#features">Features</a>
+        <a href="#install">Install</a>
+        <a href="#contact">Contact</a>
+      </nav>
+      <button class="menu-toggle" aria-label="Toggle menu">☰</button>
+    </div>
+  </header>
+
+  <main>
+    <section class="hero">
+      <div class="container">
+        <h1>Primodial Echoes</h1>
+        <p class="lead">A living project with modular components and a bold, blocky design inspired by the bloxd aesthetic.</p>
+        <div class="hero-actions">
+          <a class="btn primary" href="#features">Explore</a>
+          <a class="btn ghost" href="#install">Deploy</a>
+        </div>
+      </div>
+    </section>
+
+    <section id="features" class="section">
+      <div class="container grid">
+        <article class="card">
+          <h3>Modular</h3>
+          <p>Decoupled components that scale with your project and look great on every screen.</p>
+        </article>
+        <article class="card">
+          <h3>Fast</h3>
+          <p>Optimized static assets and simple deployment — get live quickly.</p>
+        </article>
+        <article class="card">
+          <h3>Beautiful</h3>
+          <p>Blocky, neon-accented UI with a clean layout that echoes the bloxd theme.</p>
+        </article>
+      </div>
+    </section>
+
+    <section id="install" class="section alt">
+      <div class="container">
+        <h2>Deploy</h2>
+        <p>To publish this site on GitHub Pages, enable Pages in the repository settings and choose the "docs/" folder as the source.</p>
+        <pre class="cmd">git clone &lt;repo&gt;
+cd primodial_echoes
+# add changes, or push these files
+</pre>
+      </div>
+    </section>
+
+    <section id="contact" class="section">
+      <div class="container">
+        <h2>Get in touch</h2>
+        <p>Open an issue on the repo or reach out via the usual channels.</p>
+      </div>
+    </section>
+  </main>
+
+  <footer class="site-footer">
+    <div class="container">
+      <small>© <span id="year"></span> Primodial Echoes — Crafted with a bloxd-inspired style</small>
+    </div>
+  </footer>
+
+  <script>
+    // small UI script
+    document.getElementById('year').textContent = new Date().getFullYear();
+    const toggle = document.querySelector('.menu-toggle');
+    const nav = document.querySelector('.nav');
+    toggle && toggle.addEventListener('click', () => nav.classList.toggle('open'));
+  </script>
+</body>
+</html>
